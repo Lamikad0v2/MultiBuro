@@ -1,0 +1,97 @@
+body {
+    background-color: #1decb8;
+   }
+   #container{
+    width:400px;
+    margin:0 auto;
+    margin-top:10%;
+   }
+   /* Bordered form */
+   form {
+    width:100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+   }
+   #container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    text-align: center;
+   }
+   
+   /* Full-width inputs */
+   input[type=text], input[type=password] {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    color: #333;
+   }
+   
+   /* Set a style for all buttons */
+   input[type=submit] {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0aefff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+   }
+   input[type=submit]:hover {
+    background-color: #444;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+   }
+
+   /* Error Message */
+p {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+    text-align: center;
+  }
+  
+  /* Animation */
+  #container {
+    animation: fadeIn 1s;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  #submit {
+    animation: slideIn 1s;
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  #justifie{
+    text-align: right;
+  }
